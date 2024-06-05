@@ -436,7 +436,7 @@ class BafangUartMotorSettingsSimplifiedView extends React.Component<
                                 ? 'By display'
                                 : `${this.initial_throttle_parameters.throttle_speed_limit} km/h`}
                         </Radio>
-                        <Radio value={25}>25 km/h</Radio>
+                        <Radio value={60}>60 km/h</Radio>
                         <Radio value={32}>32 km/h</Radio>
                         <Radio value={SpeedLimitByDisplay}>
                             By limit in display module

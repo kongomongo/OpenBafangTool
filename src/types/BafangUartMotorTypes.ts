@@ -187,8 +187,8 @@ export const SpeedLimitByDisplay: number = 255;
 
 export const SimplifiedPedalSpeedLimitOptions = [
     {
-        value: 16,
-        label: `16 ${i18n.t('km/h')}`,
+        value: 60,
+        label: `60 ${i18n.t('km/h')}`,
     },
     {
         value: 25,

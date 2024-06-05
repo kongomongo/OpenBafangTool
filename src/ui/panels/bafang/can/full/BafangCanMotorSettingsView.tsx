@@ -627,8 +627,8 @@ class BafangCanMotorSettingsView extends React.Component<
                         value={parameter3.speed_limit}
                         unit={i18n.t('km/h')}
                         min={1}
-                        max={25}
-                        disabled={parameter3.speed_limit > 25}
+                        max={60}
+                        disabled={parameter3.speed_limit > 60}
                         onNewValue={(e) => {
                             this.setState({
                                 parameter3: updateField(
